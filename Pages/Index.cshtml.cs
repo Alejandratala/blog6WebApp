@@ -12,7 +12,6 @@ namespace blog6WebApp.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         private readonly ICosmosDbService _cosmosDbService;
-        public List<User> Users { get; set; }
 
         public IndexModel(ICosmosDbService cosmosDbService, ILogger<IndexModel> logger)
         {
@@ -22,13 +21,10 @@ namespace blog6WebApp.Pages
 
         public async Task OnGetAsync()
         {
-            Users = (await _cosmosDbService.GetUsersAsync()).ToList();
         }
 
         public async Task OnPostAsync(string firstName, string lastName)
         {
-            Users = (await _cosmosDbService.GetUsersAsync()).ToList();
-
             if (String.IsNullOrEmpty(firstName) || String.IsNullOrEmpty(lastName)) {
                 return;
             }

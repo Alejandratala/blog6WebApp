@@ -15644,13 +15644,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Alejandra\\Desktop\\School\\CloudCourse\\blog6WebApp\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Alejandra\\Desktop\\School\\CloudCourse\\blog6WebApp\\Pages\\Users.cshtml",
+      "TargetPath": "Pages\\Users.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Alejandra\\Desktop\\School\\CloudCourse\\blog6WebApp\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\Alejandra\\Desktop\\School\\CloudCourse\\blog6WebApp\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],

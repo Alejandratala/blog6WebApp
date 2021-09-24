@@ -1,0 +1,27 @@
+@page
+@model UsersModel
+@section Styles {
+    <link rel="stylesheet" href="~/css/users.css" />
+}
+@{
+    ViewData["Title"] = "Users";
+}
+
+<div class="text-center">
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Number of users: @Model.Users.Count</p>
+
+</div>
+
+<div class="list-group">
+
+    @foreach (var user in Model.Users)
+    {
+        <a href="#" class="list-group-item list-group-item-action list-group-item-light">@user.FirstName @user.LastName</a>
+    }
+
+</div>
+
+

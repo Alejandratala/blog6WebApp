@@ -25,7 +25,6 @@ C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\obj\Debug\net5.0\blog6
 C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\obj\Debug\net5.0\blog6WebApp.RazorCoreGenerate.cache
 C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -370,3 +369,4 @@ C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\bin\Debug\net5.0\tr\Mi
 C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\obj\Debug\net5.0\blog6WebApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Alejandra\Desktop\School\CloudCourse\blog6WebApp\obj\Debug\net5.0\Razor\Pages\Users.cshtml.g.cs

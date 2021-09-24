@@ -1,5 +1,8 @@
 ﻿@page
-@model IndexModel 
+@model IndexModel
+@section Styles {
+    <link rel="stylesheet" href="~/css/index.css" />
+}
 @{
     ViewData["Title"] = "Home page";
 }
@@ -8,10 +11,9 @@
     <h1 class="display-4">Welcome</h1>
     <p>We are saving users!</p>
 
-    <p>Number of users: @Model.Users.Count</p>
 </div>
 
-<div>
+<div class="index">
     <form method="post">
 
         <label for="firstName">Enter your first name:</label>
@@ -25,16 +27,8 @@
     </form>
 </div>
 
-<div>
-    <form method="get">
+<div  class="text-center">
 
-    <input type="submit" value="Click here to see all of our users">
+    <button type="button" onclick="location.href='/Users'">Click here to see all of our users</button>
     
-    </form>
 </div>
-<!-- <ul>
-@foreach (var user in Model.Users)
-{
-    <li>@user.FirstName - @user.LastName</li>
-}
-</ul> -->
