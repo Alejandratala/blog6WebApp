@@ -1,10 +1,33 @@
 ﻿@page
-@model IndexModel
+@model IndexModel 
 @{
     ViewData["Title"] = "Home page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>We are saving users!</p>
+
+    <p>Number of users: @Model.Users.Count</p>
 </div>
+
+<div>
+    <form method="post">
+
+        <label for="firstName">Enter your first name:</label>
+        <input type="text" id="firstName" name="firstName" minlength="1">
+
+        <label for="lastName">Enter your last name:</label>
+        <input type="text" id="lastName" name="lastName" minlength="1">
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+
+<!-- <ul>
+@foreach (var user in Model.Users)
+{
+    <li>@user.FirstName - @user.LastName</li>
+}
+</ul> -->
