@@ -23,8 +23,6 @@ namespace blog6WebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // Todo: remove this when done testing!
-            services.AddRazorPages().AddRazorRuntimeCompilation();
             services.AddRazorPages();
             services.AddSingleton<ICosmosDbService>(InitializeCosmosClientInstanceAsync(Configuration.GetSection("CosmosDb")).GetAwaiter().GetResult());
         }
